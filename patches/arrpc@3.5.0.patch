@@ -25,3 +25,9 @@ index 389b0845256a34b4536d6da99edb00d17f13a6b4..f17a0ac687e9110ebfd33cb91fd2f625
  
  import * as Natives from './native/index.js';
  const Native = Natives[process.platform];
+diff --git a/src/transports/websocket.js b/src/transports/websocket.js
+--- a/src/transports/websocket.js
++++ b/src/transports/websocket.js
+@@ -1,2 +1,2 @@
+-if (origin !== '' && ![ 'https://discord.com', 'https://ptb.discord.com', 'https://canary.discord.com' ].includes(origin)) {
++if (origin !== '' && ![ 'https://discord.com', 'https://ptb.discord.com', 'https://canary.discord.com', 'https://wooting.io' ].includes(origin)) {
